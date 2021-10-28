@@ -8,13 +8,13 @@ class LoginPage extends Component {
             window.location.href = "/"
         }
         return (
-            <div>
+            <div style={{width: 300, background:"lightgrey", padding: 50, margin: 50}}>
                 Login Page
-                <div>
+                <div style={{display:"flex", justifyContent:"space-between", margin: 10}}>
                     <label>Email</label>
                     <input type="text" name="email" placeholder="Email" />
                 </div>
-                <div>
+                <div style={{display:"flex", justifyContent:"space-between", margin: 10}}>
                     <label>password</label>
                     <input type="password" name="password" />
 
